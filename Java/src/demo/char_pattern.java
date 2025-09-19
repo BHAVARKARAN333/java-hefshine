@@ -33,7 +33,7 @@ class char_pattern {
 		
 		
 		
-		for(int i=69; i>=65; i--) {
+		for(int i=68; i>=65; i--) {
 			for(int j=69; j>=i; j--){
 				System.out.print(" ");
 			}
