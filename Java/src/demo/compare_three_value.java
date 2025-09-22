@@ -3,26 +3,23 @@ package demo;
 public class compare_three_value {
 	public static void main(String[] args) {
 
-
-		int a=6545, b=541, c=544;
-
-		if(a>=b) {
-			if(a>=c) {
-				System.out.println(" a is greater");
-			} else {
-				System.out.println("c is greater");
+		int sum =0;
+		
+		for(int j=1; j<=10; j++) {
+			
+			int c= 0;
+			for( int i=1; i<=j; i++) {
+				if(j%i==0) {
+					c=c+1;
+				}
+			} if(c==2) {
+			sum= sum+j;
 			}
-		}
+			
 	
-	else {
-		if(b>=c) {
-			System.out.println("b is grater");
-		}else {
-			System.out.println("c is grater");
 		}
-
-
+		
+		System.out.println(sum);
+		
+			}
 	}
-
-}
-}

@@ -3,7 +3,7 @@ package demo;
 public class onetohundreadpn {
 	public static void main(String[] args) {
 		
-	
+	int sum = 0;
 	for(int j=1; j<=100; j++) {
 	
 	
@@ -14,8 +14,10 @@ public class onetohundreadpn {
 			}
 		}
 		if(c==2) {
-			System.out.println(j);
+			sum = sum+j;
 		}
+		
 	}
+	System.out.println("sum of prime number : "+sum);
 }
 }

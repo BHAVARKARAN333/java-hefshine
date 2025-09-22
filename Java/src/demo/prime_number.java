@@ -20,6 +20,7 @@ public class prime_number {
 			System.out.println("prime");
 		}else {
 			System.out.println("odd");
+			
 		
 
 	}

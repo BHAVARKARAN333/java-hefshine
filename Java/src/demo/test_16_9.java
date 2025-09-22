@@ -190,25 +190,25 @@ public class test_16_9 {
 
 
 		
-//		for(int i=1; i<=6; i++) {
-//			for(int j=i; j<=5; j++) {
-//				System.out.print("-");
-//			} for(int k=1; k<=i*2-1; k++) {
-//					System.out.print("*");
-//				}
-//			System.out.println();
-//		}
-//		
-//		for(int i=1; i<=5; i++) {
-//			for(int j=1; j<=i; j++) {
-//				System.out.print("-");
-//			}
-//			for(int k=i*2-1; k<=9; k++) {
-//				System.out.print("*");
-//			}
-//			System.out.println();
-//		}
-//		
+		for(int i=1; i<=6; i++) {
+			for(int j=i; j<=5; j++) {
+				System.out.print("-");
+			} for(int k=1; k<=i*2-1; k++) {
+					System.out.print("*");
+				}
+			System.out.println();
+		}
+		
+		for(int i=1; i<=5; i++) {
+			for(int j=1; j<=i; j++) {
+				System.out.print("-");
+			}
+			for(int k=i*2-1; k<=9; k++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
 		
 		
 //		
@@ -236,18 +236,7 @@ public class test_16_9 {
 //		
 //		
 		
-		
-		for(int i=65; i<=69; i++) {
-			for(int j=69; j>=i; j--){
-				System.out.print("-");
-			}
-			for(int k=65; k<=i; k++) {
-				System.out.print((char)k);
-			}
-			System.out.println();
-		}
-		
-		
+	
 		
 	
 
