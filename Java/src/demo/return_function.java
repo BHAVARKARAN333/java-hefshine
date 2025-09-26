@@ -30,8 +30,8 @@ class student{
 	 short show7(short a) {
 		 return a;
 	 }
-	 byte show8(byte a) {
-		 return a;
+	 byte show8(byte a, byte b) {
+		 return (byte)(a+b);
 	 }
 
 
@@ -53,9 +53,8 @@ public class return_function {
 		System.out.println(s1.show5('A'));
 		System.out.println(s1.show6(true));
 		System.out.println(s1.show7((short)23));
-		System.out.println(s1.show8((byte)101));
-		
-		
+		System.out.println(s1.show8((byte)101, (byte)64));
+				
 
 	}
 }
