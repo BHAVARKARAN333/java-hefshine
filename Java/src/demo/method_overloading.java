@@ -17,12 +17,16 @@ class test11{
 
 public class method_overloading {
 
+	static void set() {
+		System.out.println("karan");
+	}
  public static void main(String args[]) {
 	 test11 t1 = new test11();
 	 
 	 t1.get();
 	 t1.get(2);
 	 t1.get(21.2f);
+	 set();
  }
 	
 }
