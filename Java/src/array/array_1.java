@@ -2,24 +2,24 @@ package array;
 import java.util.Scanner;
 
 public class array_1 {
+	public static void update(int arr[]) {
+		
+		for(int i=0; i<arr.length; i++) {
+			arr[i] = arr[i] +1;
+		}
+	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		String s1 ="abc";
-		char c = 'k';
+	
+		int arr[] = {21,32,43,54,5};
+		update(arr);
 		
-		char ch[] = s1.toCharArray();
-		
-		for(int i=0; i<ch.length; i++) {
-			if(ch[i] == 'a') {
-				ch[i] =c;
-			}
+		for(int i = 0; i<arr.length; i++) {
+			System.out.println(arr[i]);
 		}
 		
-		System.out.println(ch);
-		}
-
+		
+	}
 	}
 
 

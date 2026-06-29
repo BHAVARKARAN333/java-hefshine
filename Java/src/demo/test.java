@@ -1,4 +1,4 @@
-package december_batch;
+package demo;
 class bank{
 	
 	void deposite() {
@@ -11,7 +11,7 @@ class HDFC extends bank {
 		System.out.println("show");
 }
 }
-public class inheritance {
+public class test {
 			public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		

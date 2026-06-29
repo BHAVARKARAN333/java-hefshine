@@ -1,17 +1,32 @@
 package december_batch;
 
+class outer{
+	void display() {
+		
+		inner ob = new inner();
+		ob.show();
+		
+	}
+	
+	  class inner{
+		void show() {
+			System.out.println("i am ineer class");
+		}
+	}
+}
 public class static_increment {
 	
-	static {
-		System.out.println("hello i am static block");
-	}
+	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("hello i am main ");
 		
+		outer ob = new outer();
+		ob.display();
 		
-		
+		outer.inner ob2 =ob.new inner();
+		ob2.show();
+				
+				
 	}
 
 }
